@@ -1,10 +1,23 @@
 <template>
-<h1>app</h1>
+  <div>
+    <router-view/>
+    <FooterGuide>
+
+    </FooterGuide>
+  </div>
 </template>
 
 <script>
+  import FooterGuide from './components/FooterGuide/FooterGuide.vue'
+
   export default {
-    name: 'App'
+    components: {
+      FooterGuide
+    },
+    methods:{
+
+    },
+
   }
 </script>
 

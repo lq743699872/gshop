@@ -4,7 +4,7 @@
 
 <script>
   export default {
-    name: 'Msite'
+    name: 'MSite'
   }
 </script>
 
